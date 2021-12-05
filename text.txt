@@ -1,0 +1,16 @@
+1.what is JavaScript?
+2. VAr vs Let
+3. global scope vs
+4. React and redux
+5. hmtl and css
+6. jquery
+7. bootstarp
+8. github
+9. rebase,pull, push, reprojectary, mkdir, branch, merge,
+10. this in js
+11. closers in js
+12. promise, async, and await in js
+13. web wokers in js
+14. event loop in js
+15. data base , sql, nosql,
+16. reacthooks 
