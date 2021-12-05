@@ -1,5 +1,43 @@
 1.what is JavaScript?
+ JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.
+ 
+ JavaScript (js) is a light-weight object-oriented programming language which is used by several websites for scripting the webpages. It is an interpreted, full-fledged programming language that enables dynamic interactivity on websites when applied to an HTML document.
+ 
+ 
+
+JavaScript is the Programming Language for the Web.
+
+JavaScript can update and change both HTML and CSS.
+
+JavaScript can calculate, manipulate and validate data.
+
+ 
+ **************************************************
+ 
 2. VAr vs Let
+
+In the following text we come to know the major difference between var and let in javascript.
+
+The main difference between let and var is that scope of a variable defined with let is limited to the block in which it is declared while variable declared with var has the global scope. So we can say that var is rather a keyword which defines a variable globally regardless of block scope.
+
+The scope of let not only limited to the block in which it is defined but variable with let also do not get added with global window object even if it get declared outside of any block. But we can access variable with var from window object if it is defined globally.
+
+Due to limited scope let variables are usually used when there is limited use of those variables such as in for loops, while loops or inside the scope of if conditions etc while var variable is used when value of variable need to be less change and used to accessed globally.
+
+Also, one difference between var and let is variable with var can be redeclared to some other value while variable could not be redeclared if it is defined with let.
+
+let a = 'hello'; // globally scoped
+var b = 'world'; // globally scoped
+console.log(window.a); // undefined
+console.log(window.b); // 'world'
+var a = 'hello';
+var a = 'world'; // No problem, 'hello' is replaced.
+let b = 'hello';
+let b = 'world'; // SyntaxError: Identifier 'b' has already been declared
+
+
+********************************************************
+
 3. global scope vs
 4. React and redux
 5. hmtl and css
