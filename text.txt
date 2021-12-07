@@ -56,4 +56,6 @@ let b = 'world'; // SyntaxError: Identifier 'b' has already been declared
 Span tag in HTML is considered as an inline element. It is similar to the div tag, but the div tag is purposely used for block-level elements, whereas the span is used for inline elements. It’s mainly used whenever a user wants to do a grouping of the inline elements into their code structure. Span tag in HTML is used to give style to particular contents by using elements class or id attribute. It’s not possible to do visual change by itself using the span tag in the HTML document. It works as an inline tag in the HTML document. Using the span tags in your code helps to reduce code and HTML attributes.
 
 ******************************************
+18.what is package.json file?
+
 
