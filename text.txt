@@ -69,6 +69,13 @@ They are reserved only for interactivity and component's event handlers may chan
 
 The state will be set with a default value when component mounts and will mutate in time based on user events generated
 *********************************************************
+When we want to pass any data from one component to another component, it is passed as a prop.
 
+Props allow us to pass data from one component to another component
+
+Props are immutable - a component cannot change its props however it is responsible for putting together
+
+Props can be accessed as this.props
+***********************************************
  
 
