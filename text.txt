@@ -61,6 +61,14 @@ Span tag in HTML is considered as an inline element. It is similar to the div ta
 
 19.What is React JS?
 React JS is a JavaScript library for creating user interfaces, making development of UI components easy and modular.
+*********************************************************
+States?
+States are mutable and only used on top level component
+
+They are reserved only for interactivity and component's event handlers may change to trigger a UI update
+
+The state will be set with a default value when component mounts and will mutate in time based on user events generated
+*********************************************************
 
  
 
