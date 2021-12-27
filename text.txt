@@ -104,4 +104,15 @@ To update the component, based on the props changes
 
 For clearing the values when component is unmounted
 **************************************************************
+componentDidMount():
 
+Invoked immediately after the component is mounted to DOM tree
+
+Now will have access to all the DOM nodes hence any initialization which requires DOM nodes should be done here
+
+Best place for setting timers and handling Ajax request
+
+*****************************************************
+useState()
+useState hook is used to add or initialize state value within a functional component.
+*************************************
