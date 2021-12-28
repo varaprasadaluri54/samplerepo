@@ -39,7 +39,26 @@ let b = 'world'; // SyntaxError: Identifier 'b' has already been declared
 ********************************************************
 
 3. global scope vs
-4. React and redux
+4. React 
+*********************************
+Redux
+Redux is an application data-flow architecture which is used for predicting state changes in JavaScript applications. Redux is not a framework. Redux can be used with any other View library but mostly used with React.
+
+The main concepts of Redux architecture are:
+
+Store: The place where the entire state of the application is stored
+
+Actions: JS objects which encapsulate the events triggered within the application. 
+
+Reducers: Pure functions that modify the state of the application according to the actions triggered.
+
+In Redux state is an immutable object. The state object cannot be changed directly in Redux. Triggering actions are the only way to modify the state. Every time the state is modified a new object should be returned which represents the modifications that are made to the state object.
+
+Forbidden in Reducers
+         Mutating the arguments passed
+         Performing side effects like API calls, AJAX call, etc
+         Calling other non-pure functions (Ex: date.now(), Math.random())
+******************************************
 5. hmtl and css
 6. jquery
 7. bootstarp
